@@ -30,6 +30,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
+        android:id="@+id/view12"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -48,6 +67,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
+        android:id="@+id/view9"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,6 +96,7 @@
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/rm_button" />
 
+
     <ImageButton
         android:id="@+id/imc_button"
         android:layout_width="150dp"
@@ -96,6 +117,27 @@
         app:layout_constraintStart_toEndOf="@+id/view4"
         app:layout_constraintTop_toBottomOf="@+id/imc_button"
         />
+
+    <ImageButton
+        android:id="@+id/kal_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/lightorange1"
+        android:src="@drawable/ic_baseline_calculate_24"
+        app:layout_constraintEnd_toStartOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <TextView
+        android:id="@+id/textView_kal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Calculatrice de Calories"
+        app:layout_constraintBottom_toTopOf="@+id/view9"
+        app:layout_constraintEnd_toStartOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/kal_button" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
