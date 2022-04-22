@@ -5,13 +5,17 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.237" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/drawable/ic_baseline_calculate_24.xml" value="0.237" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.237" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/drawable/ic_baseline_no_food_24.xml" value="0.229" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/drawable/ic_boissons_24.xml" value="0.237" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/drawable/search_bg.xml" value="0.237" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/layout-v29/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/layout/activity_imcactivity.xml" value="0.358695652173913" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/layout/activity_kal.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/layout/activity_rmactivity.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/layout/kal_add_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DietInfo/app/src/main/res/layout/kal_category_layout.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

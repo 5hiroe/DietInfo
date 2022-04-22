@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DietInfo">
         <activity
+            android:name=".KalActivity"
+            android:exported="false" />
+        <activity
             android:name=".IMCActivity"
             android:exported="false" />
         <activity

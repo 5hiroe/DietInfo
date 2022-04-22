@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         TextView hw = findViewById(R.id.hw);
         ImageButton imc_button = findViewById(R.id.imc_button);
         ImageButton rm_button = findViewById(R.id.rm_button);
+        ImageButton kal_button = findViewById(R.id.kal_button);
 
         imc_button.setBackgroundColor(R.color.green1);
 
@@ -42,12 +43,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        kal_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startKalActivity();
+            }
+        });
+
+
         hw.setText(motsdoux[random]);
     }
 
     private void startIMCActivity(){
         Intent myIntent = new Intent(this, IMCActivity.class);
         this.startActivity(myIntent);
-
+    }
+    private void startKalActivity(){
+        Intent myIntent = new Intent(this, KalActivity.class);
+        this.startActivity(myIntent);
     }
 }
