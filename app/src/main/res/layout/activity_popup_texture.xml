@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopupTextureActivity">
+
+    <ImageButton
+        android:id="@+id/icon_home_texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_home_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/red1"/>
+
+    <ImageButton
+        android:id="@+id/icon_back_texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        android:backgroundTint="@color/green1"/>
+
+
+    <TextView
+        android:id="@+id/title_texture_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texture"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_home_texture" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title_texture_popup"
+        android:layout_margin="10dp"
+        android:paddingBottom="150dp"
+        android:id="@+id/texture_recycler_view"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

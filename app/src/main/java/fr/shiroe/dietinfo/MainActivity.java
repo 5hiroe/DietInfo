@@ -29,10 +29,15 @@ public class MainActivity extends AppCompatActivity {
 
         int random = (int)(Math.random()*9)+1;
 
+        int[] rainbow = getResources().getIntArray(R.array.rainbow);
+
+        int randomRainbow = (int)(Math.random()*rainbow.length);
+
         TextView hw = findViewById(R.id.hw);
         ImageButton imc_button = findViewById(R.id.imc_button);
         ImageButton rm_button = findViewById(R.id.rm_button);
         ImageButton kal_button = findViewById(R.id.kal_button);
+        ImageButton texture_button = findViewById(R.id.texture_button);
 
         imc_button.setBackgroundColor(R.color.green1);
 
@@ -49,9 +54,22 @@ public class MainActivity extends AppCompatActivity {
                 startKalActivity();
             }
         });
+        rm_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startRmActivity();
+            }
+        });
+        texture_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startTextureActivity();
+            }
+        });
 
 
         hw.setText(motsdoux[random]);
+        hw.setBackgroundColor(rainbow[randomRainbow]);
     }
 
     private void startIMCActivity(){
@@ -60,6 +78,14 @@ public class MainActivity extends AppCompatActivity {
     }
     private void startKalActivity(){
         Intent myIntent = new Intent(this, KalActivity.class);
+        this.startActivity(myIntent);
+    }
+    private void startRmActivity(){
+        Intent myIntent = new Intent(this, RMActivity.class);
+        this.startActivity(myIntent);
+    }
+    private void startTextureActivity(){
+        Intent myIntent = new Intent(this, TextureActivity.class);
         this.startActivity(myIntent);
     }
 }

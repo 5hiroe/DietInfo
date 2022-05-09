@@ -9,6 +9,7 @@
     android:backgroundTint="@color/white1">
 
     <TextView
+        android:padding="5dp"
         android:id="@+id/hw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -128,6 +129,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
+
     <TextView
         android:id="@+id/textView_kal"
         android:layout_width="wrap_content"
@@ -139,5 +141,24 @@
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/kal_button" />
 
+    <ImageButton
+        android:id="@+id/texture_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/pink1"
+        android:src="@drawable/ic_baseline_local_drink_100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
 
+    <TextView
+        android:id="@+id/textView_texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Textures des Aliments"
+        app:layout_constraintBottom_toTopOf="@+id/view9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/kal_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

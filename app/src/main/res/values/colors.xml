@@ -17,5 +17,22 @@
     <color name="salmon1">#f7d6e0</color>
     <color name="turquoise1">#7bdff2</color>
     <color name="turquoisehard1">#a3c4f3</color>
+    <color name="darkgreen1">#89d2a3</color>
+
+    <integer-array name="rainbow">
+        <item>@color/pink1</item>
+        <item>@color/purple1</item>
+        <item>@color/blue1</item>
+        <item>@color/lightblue1</item>
+        <item>@color/green1</item>
+        <item>@color/yellow1</item>
+        <item>@color/orange1</item>
+        <item>@color/red1</item>
+        <item>@color/bluegrey1</item>
+        <item>@color/lightorange1</item>
+        <item>@color/salmon1</item>
+        <item>@color/turquoise1</item>
+        <item>@color/turquoisehard1</item>
+    </integer-array>
 
 </resources>
